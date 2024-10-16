@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Saya</title>
+</head>
+<body>
+    
+    <section id="header">
+        <div class="photo-container">
+            <div class="photo">
+                <img src="/Profile/photo/Desain tanpa judul (3).png" alt="Wedya">
+            </div>
+            <h2>I Wayan Wedya Diatmika</h2>
+            <h4>IT College Student| Problem Solver</h4>
+        </div>
+    </section>
+    
+    <section id="bio">
+        <h3>About Me</h3>
+        <p>Seorang Mahasiswa yang memiliki ketertarikan pada dunia IT yang akan membantu indonesia menuju Indonesia Emas di masa depan</p>
+    </section>
+    
+    <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Programming Languages: C++, Python, JavaScript</li>
+            <li>Web Technologies: HTML, CSS</li>
+            <li>Database Management: SQL, PHP</li>
+            <li>Tools: Git</li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h3>Experience</h3>
+        <ul>
+            <li>
+                <strong>Bootcamp Junior Web Development</strong> - DIGIUP Telkom (Sep 2022 - Oct 2022)
+                <ul>
+                    <li></li>
+                    <li>Mengikuti Bootcamp untuk mengenali dan mempelajari Web Development selama 1 bulan penuh dengan kompeten</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h3>Education</h3>
+        <ul>
+            <li>- SDN 1 Semarapura Kelod (2011 - 2017)</li>
+            <li>- SMPN 1 Semarapura (2017 - 2020)</li>
+            <li>- SMAN 1 Semarapura (2020 - 2023)</li>
+            <li>- Telkom University (2023 - Now)</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:wayanwedyadiatmika@gmail.com">wayanwedyadiatmika@gmail.com</a></p>
+        <p>Phone: <a href="https://wa.me/082236726124" target="_blank">082236726124</a></p>
+    </section>
+    <section id="form-section">
+        <h3>Contact Form</h3>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <span id="nameError" style="color: red;"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <span id="emailError" style="color: red;"></span>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" required></textarea>
+            <span id="messageError" style="color: red;"></span>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 I Wayan Wedya Diatmika</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
